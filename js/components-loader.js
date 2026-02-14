@@ -13,9 +13,22 @@ function injectHeader() {
   }
 }
 
+/**
+ * Inject footer from footer-content.js
+ */
+function injectFooter() {
+  const footerContainer = document.getElementById('footer-container');
+  if (footerContainer && typeof FOOTER_HTML !== 'undefined') {
+    footerContainer.innerHTML = FOOTER_HTML;
+  }
+}
+
 function initializeComponents() {
   // Inject header from header-content.js
   injectHeader();
+
+  // Inject footer from footer-content.js
+  injectFooter();
   
   // Get the current page name from filename
   const currentPage = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
