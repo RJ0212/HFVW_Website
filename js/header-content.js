@@ -44,6 +44,7 @@ const HEADER_HTML = `<!-- Header Component -->
       <a href="index.html" class="nav-link" data-page="index">Home</a>
       <a href="warriors.html" class="nav-link" data-page="warriors">Vent Warriors</a>
       <a href="who-we-are.html" class="nav-link" data-page="who-we-are">Who We Are</a>
+      <a href="founder.html" class="nav-link" data-page="founder">Our Founder</a>
       <a href="what-we-do.html" class="nav-link" data-page="what-we-do">What We Do</a>
       <a href="donate.html" class="nav-link" data-page="donate">Donate</a>
       <a href="contact.html" class="nav-link" data-page="contact">Contact Us</a>
@@ -64,6 +65,7 @@ const HEADER_HTML = `<!-- Header Component -->
     <a href="index.html" class="mobile-menu-link" data-page="index">Home</a>
     <a href="warriors.html" class="mobile-menu-link" data-page="warriors">Vent Warriors</a>
     <a href="who-we-are.html" class="mobile-menu-link" data-page="who-we-are">Who We Are</a>
+    <a href="founder.html" class="mobile-menu-link" data-page="founder">Our Founder</a>
     <a href="what-we-do.html" class="mobile-menu-link" data-page="what-we-do">What We Do</a>
     <a href="donate.html" class="mobile-menu-link" data-page="donate">Donate</a>
     <a href="contact.html" class="mobile-menu-link" data-page="contact">Contact Us</a>

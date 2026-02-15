@@ -29,6 +29,7 @@ const FOOTER_HTML = `<!-- Footer Component -->
           <a href="index.html" class="footer-link">Home</a>
           <a href="warriors.html" class="footer-link">Vent Warriors</a>
           <a href="who-we-are.html" class="footer-link">Who We Are</a>
+          <a href="founder.html" class="footer-link">Our Founder</a>
           <a href="what-we-do.html" class="footer-link">What We Do</a>
           <a href="donate.html" class="footer-link">Donate</a>
           <a href="contact.html" class="footer-link">Contact Us</a>
